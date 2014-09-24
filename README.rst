@@ -10,11 +10,11 @@ How it works
 
 Before installing collective.angularstarter you need to:
 
-    # install nodejs (suggested way NVM)
-    $ npm install -g grunt-cli bower
-    $ cd collective.angularstarter/collective/angularstarter/browser/angular
-    $ bower install
-    $ npm install
+* # install nodejs (suggested way NVM)
+* $ npm install -g grunt-cli bower
+* $ cd collective.angularstarter/collective/angularstarter/browser/angular
+* $ bower install
+* $ npm install
 
 After that install the collective.angularstarter plugin and choose the more appropriate install profile:
 
