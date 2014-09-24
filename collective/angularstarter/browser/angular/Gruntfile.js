@@ -245,7 +245,7 @@ module.exports = function (grunt) {
           stylesheets: ['concat/++resource++collective.angularstarter.styles/main.css']
         },
         files: {
-          '.tmp/concat/styles/main.css': ['<%= yeoman.dist %>/index.html', '<%= yeoman.dist %>/++resource++collective.angularstarter.views/main.html', '<%= yeoman.dist %>/++resource++collective.angularstarter.views/searchbycode.html']
+          '.tmp/concat/++resource++collective.angularstarter.styles/main.css': ['<%= yeoman.dist %>/index.html', '<%= yeoman.dist %>/++resource++collective.angularstarter.views/main.html', '<%= yeoman.dist %>/++resource++collective.angularstarter.views/searchbycode.html']
         }
       }
     },
