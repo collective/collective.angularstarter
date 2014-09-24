@@ -35,6 +35,17 @@ You can extend this project and then clone it with::
 
     $ VENV/bin/collective_angularstarter_clone your.awesomeplugin
 
+TODO
+----
+
+* test production vs devel layers
+* makefile for init project
+
+Links
+-----
+
+* blog post (coming soon)
+
 Authors
 -------
 

@@ -4,39 +4,42 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="collective.angularstarter">
 
-  <!-- Styles -->
+  <!-- Bower components (only devel mode) -->
   <browser:resourceDirectory
     name="collective.angularstarter.bower_components"
     directory="angular/++resource++collective.angularstarter.bower_components"
-    layer=".interfaces.ICollectiveAngularstarterLayer"
+    layer=".interfaces.ICollectiveAngularstarterDevelLayer"
     />
+
   <!-- Styles -->
   <browser:resourceDirectory
     name="collective.angularstarter.styles"
     directory="angular/app/++resource++collective.angularstarter.styles"
-    layer=".interfaces.ICollectiveAngularstarterLayer"
+    layer=".interfaces.ICollectiveAngularstarterDevelLayer"
     />
   <browser:resourceDirectory
     name="collective.angularstarter.styles"
     directory="angular/dist/++resource++collective.angularstarter.styles"
     layer=".interfaces.ICollectiveAngularstarterProductionLayer"
     />
+
   <!-- Scripts -->
   <browser:resourceDirectory
     name="collective.angularstarter.scripts"
     directory="angular/app/++resource++collective.angularstarter.scripts"
-    layer=".interfaces.ICollectiveAngularstarterLayer"
+    layer=".interfaces.ICollectiveAngularstarterDevelLayer"
     />
   <browser:resourceDirectory
     name="collective.angularstarter.scripts"
     directory="angular/dist/++resource++collective.angularstarter.scripts"
     layer=".interfaces.ICollectiveAngularstarterProductionLayer"
     />
+
   <!-- Views -->
   <browser:resourceDirectory
     name="collective.angularstarter.views"
     directory="angular/app/++resource++collective.angularstarter.views"
-    layer=".interfaces.ICollectiveAngularstarterLayer"
+    layer=".interfaces.ICollectiveAngularstarterDevelLayer"
     />
   <browser:resourceDirectory
     name="collective.angularstarter.views"
@@ -50,7 +53,7 @@
     name="angularstarter"
     template="angular/app/index.html"
     permission="zope2.View"
-    layer=".interfaces.ICollectiveAngularstarterLayer"
+    layer=".interfaces.ICollectiveAngularstarterDevelLayer"
     />
   <browser:page
     for="*"

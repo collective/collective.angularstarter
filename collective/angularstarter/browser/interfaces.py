@@ -3,5 +3,8 @@ from zope.interface import Interface
 class ICollectiveAngularstarterLayer(Interface):
     """ Marker interface """
 
-class ICollectiveAngularstarterProductionLayer(Interface):
+class ICollectiveAngularstarterDevelLayer(ICollectiveAngularstarterLayer):
+    """ Marker interface """
+
+class ICollectiveAngularstarterProductionLayer(ICollectiveAngularstarterLayer):
     """ Marker interface """
