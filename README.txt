@@ -8,7 +8,15 @@ Yeoman powered.
 How it works
 ------------
 
-Install the collective.angularstarter plugin and choose the more appropriate install profile:
+Before installing collective.angularstarter you need to:
+
+1 - install nodejs (suggested way NVM)
+2 - npm install -g grunt-cli bower
+3 - cd collective.angularstarter/collective/angularstarter/browser/angular
+4 - bower install
+5 - npm install
+
+After that install the collective.angularstarter plugin and choose the more appropriate install profile:
 
 * :default -> for production (htmlmin, image minification, concat+uglify/cssmin, uncss, cdnify)
 * :devel -> suitable for development
