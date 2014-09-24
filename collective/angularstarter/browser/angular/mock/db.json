@@ -1,0 +1,28 @@
+{
+  "brands": [
+    { "id": "e31aa48c", "title": "Audi" }
+  ],
+  "models": [
+    { "id": "e31aa48c", "title": "A1", "brand": "e31aa48c" }
+  ],
+  "versions": [
+    { "id": "e31aa48c", "title": "Standard", "brand": "e31aa48c", "model": "e31aa48c" }
+  ],
+  "years": [
+    { "id": "e31aa48c", "title": "2009", "brand": "e31aa48c", "model": "e31aa48c", "version": "e31aa48c" },
+    { "id": "e31aa48b", "title": "2010", "brand": "e31aa48c", "model": "e31aa48c", "version": "e31aa48c" }
+  ],
+  "cars": [
+    { "id": "e31aa48c", "title": "Audi A1 Standard 2009", "brand": "e31aa48c", "model": "e31aa48c", "version": "e31aa48c", "year": "e31aa48c" },
+    { "id": "e31aa48b", "title": "Audi A1 Standard 2010", "brand": "e31aa48c", "model": "e31aa48c", "version": "e31aa48c", "year": "e31aa48b" }
+  ],
+  "querycode": [
+    { "id": "e31aa41a", "title": "Result 1", "codetype": "e31aa41a", "code": "e31aa41a" },
+    { "id": "e31aa42a", "title": "Result 1", "codetype": "e31aa41a", "code": "e31aa42a" },
+    { "id": "e31aa43a", "title": "Result 1", "codetype": "e31aa42a", "code": "e31aa41a" },
+    { "id": "e31aa44a", "title": "Result 1", "codetype": "e31aa42a", "code": "e31aa42a" },
+    { "id": "e31aa45a", "title": "Result 1", "codetype": "e31aa43a", "code": "e31aa41a" },
+    { "id": "e31aa46a", "title": "Result 1", "codetype": "e31aa43a", "code": "e31aa41a" },
+    { "id": "e31aa47a", "title": "Result 1", "codetype": "e31aa43a", "code": "e31aa41a" }
+  ]
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css({.,.tmp}) ++resource++collective.angularstarter.styles/main.css -->
+    <link rel="stylesheet" href="++resource++collective.angularstarter.bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="++resource++collective.angularstarter.styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+
+    <!-- Add your site or application content here -->
+    <div class="container" ng-app="angularApp" ng-cloak>
+
+      <h2>collective.angularstarter</h2>
+      Get started with Plone + AngularJS without any of the normal headaches associated with a manual setup.
+
+      Yeoman powered
+
+      <div ng-view=""></div>
+
+    </div>
+
+    <!-- build:js(.) ++resource++collective.angularstarter.scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="++resource++collective.angularstarter.bower_components/es5-shim/es5-shim.js"></script>
+    <script src="++resource++collective.angularstarter.bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+    <!-- cdnifable resources-->
+    <script src="++resource++collective.angularstarter.bower_components/angular/angular.js"></script>
+    <script src="++resource++collective.angularstarter.bower_components/angular-route/angular-route.js"></script>
+
+    <!-- build:js(.) ++resource++collective.angularstarter.scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="++resource++collective.angularstarter.bower_components/angular-translate/angular-translate.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) ++resource++collective.angularstarter.scripts/scripts.js -->
+    <script src="++resource++collective.angularstarter.scripts/app.js"></script>
+    <script src="++resource++collective.angularstarter.scripts/controllers/main.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

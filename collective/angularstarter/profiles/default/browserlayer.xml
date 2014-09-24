@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="CollectiveAngularstarterLayer"
+        interface="collective.angularstarter.browser.interfaces.ICollectiveAngularstarterProductionLayer"
+    />
+</layers>
+
