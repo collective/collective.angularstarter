@@ -1,9 +1,9 @@
 collective.angularstarter
 =========================
 
-Get started with Plone + AngularJS without any of the normal headaches associated with a manual setup.
+Get started with Plone + AngularJS (Yeoman powered) without any of the normal headaches associated with a manual setup.
 
-Yeoman powered.
+Useful when you want to develop a single page webapp using Plone.
 
 How it works
 ------------
@@ -20,6 +20,10 @@ After that install the collective.angularstarter plugin and choose the more appr
 
 * :default -> for production (htmlmin, image minification, concat+uglify/cssmin, uncss, cdnify)
 * :devel -> suitable for development
+
+Now you can visit your AngularJS single page web application:
+
+* http://localhost:8080/Plone/@@angularstarter
 
 You can extend this project and then clone it with::
 
