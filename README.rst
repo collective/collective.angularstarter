@@ -3,7 +3,7 @@ collective.angularstarter
 
 Get started with Plone + AngularJS (Yeoman powered) without any of the normal headaches associated with a manual setup.
 
-Useful when you want to develop a single page webapp using Plone.
+Useful when you want to develop a single page web applications powered by Angular using Plone as backend.
 
 How it works
 ------------
