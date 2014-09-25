@@ -44,7 +44,7 @@ TODO
 Links
 -----
 
-* blog post (coming soon)
+* http://davidemoro.blogspot.com/2014/09/plone-angularjs-yeoman-starter.html
 
 Authors
 -------
