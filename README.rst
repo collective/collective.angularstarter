@@ -15,6 +15,7 @@ Before installing collective.angularstarter you need to:
 * $ cd collective.angularstarter/collective/angularstarter/browser/angular
 * $ bower install
 * $ npm install
+* $ grunt build
 
 After that install the collective.angularstarter plugin and choose the more appropriate install profile:
 
